@@ -1,0 +1,320 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Untree.co">
+  <link rel="shortcut icon" href="favicon.png">
+
+  <meta name="description" content="" />
+  <meta name="keywords" content="bootstrap, bootstrap4" />
+
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+		<link href="css/tiny-slider.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<title>thinkbigfurniture checkout</title>
+	</head>
+
+	<body>
+
+		<!-- Start Header/Navigation -->
+		<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
+
+			<div class="container">
+				<a class="navbar-brand" href="index.html">ThinkBigFurniture<span>.</span></a>
+
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarsFurni">
+					<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+						<li class="nav-item ">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li><a class="nav-link" href="shop.html">Shop</a></li>
+						<li><a class="nav-link" href="about.html">About us</a></li>
+						<li><a class="nav-link" href="services.html">Services</a></li>
+						
+						<li><a class="nav-link" href="contact.html">Contact us</a></li>
+					</ul>
+
+					<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+						<li><a class="nav-link" href="#"><img src="images/user.svg"></a></li>
+						<li><a class="nav-link" href="cart.html"><img src="images/cart.svg"></a></li>
+					</ul>
+				</div>
+			</div>
+				
+		</nav>
+		<!-- End Header/Navigation -->
+
+		<!-- Start Hero Section -->
+			<div class="hero">
+				<div class="container">
+					<div class="row justify-content-between">
+						<div class="col-lg-5">
+							<div class="intro-excerpt">
+								<h1>Checkout</h1>
+							</div>
+						</div>
+						<div class="col-lg-7">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- End Hero Section -->
+
+		<div class="untree_co-section">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-md-12">
+        <div class="border p-4 rounded" role="alert">
+          Returning customer? <a href="#">Click here</a> to login
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 mb-5 mb-md-0">
+        <h2 class="h3 mb-3 text-black">Billing Details</h2>
+        <div class="p-3 p-lg-5 border bg-white">
+          <div class="form-group">
+            <label for="c_county" class="text-black">County <span class="text-danger">*</span></label>
+            <select id="c_county" class="form-control">
+              <option value="">Select a county</option>
+              <option value="Nairobi">Nairobi</option>
+              <option value="Mombasa">Mombasa</option>
+              <option value="Kisumu">Kisumu</option>
+              <option value="Nakuru">Nakuru</option>
+              <option value="Kiambu">Kiambu</option>
+              <option value="Machakos">Machakos</option>
+              <option value="Uasin Gishu">Uasin Gishu</option>
+              <option value="Meru">Meru</option>
+              <option value="Nyeri">Nyeri</option>
+              <option value="Eldoret">Eldoret</option>
+            </select>
+          </div>
+          <div class="form-group row">
+            <div class="col-md-6">
+              <label for="c_fname" class="text-black">First Name <span class="text-danger">*</span></label>
+              <input type="text" class="form-control" id="c_fname" name="c_fname">
+            </div>
+            <div class="col-md-6">
+              <label for="c_lname" class="text-black">Last Name <span class="text-danger">*</span></label>
+              <input type="text" class="form-control" id="c_lname" name="c_lname">
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-md-12">
+              <label for="c_address" class="text-black">Delivery Address <span class="text-danger">*</span></label>
+              <input type="text" class="form-control" id="c_address" name="c_address" placeholder="Estate, Street, Building...">
+            </div>
+          </div>
+          <div class="form-group row mb-5">
+            <div class="col-md-6">
+              <label for="c_email_address" class="text-black">Email Address <span class="text-danger">*</span></label>
+              <input type="email" class="form-control" id="c_email_address" name="c_email_address">
+            </div>
+            <div class="col-md-6">
+              <label for="c_phone" class="text-black">Phone <span class="text-danger">*</span></label>
+              <input type="tel" class="form-control" id="c_phone" name="c_phone" placeholder="07XXXXXXXX">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="c_order_notes" class="text-black">Order Notes</label>
+            <textarea name="c_order_notes" id="c_order_notes" cols="30" rows="5" class="form-control" placeholder="E.g. Deliver after 5pm..."></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Side - Order Summary -->
+      <div class="col-md-6">
+        <div class="row mb-5">
+          <div class="col-md-12">
+            <h2 class="h3 mb-3 text-black">Your Order</h2>
+            <div class="p-3 p-lg-5 border bg-white">
+              <table class="table site-block-order-table mb-5">
+                <thead>
+                  <tr>
+                    <th>Product</th>
+                    <th>Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>MChester Sofa <strong class="mx-2">x</strong> 1</td>
+                    <td>Ksh 25,000</td>
+                  </tr>
+                  <tr>
+                    <td>TV Stand <strong class="mx-2">x</strong> 1</td>
+                    <td>Ksh 8,500</td>
+                  </tr>
+                  <tr>
+                    <td class="text-black font-weight-bold"><strong>Subtotal</strong></td>
+                    <td class="text-black">Ksh 33,500</td>
+                  </tr>
+                  <tr>
+                    <td class="text-black font-weight-bold"><strong>Total</strong></td>
+                    <td class="text-black font-weight-bold"><strong>Ksh 33,500</strong></td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <div class="border p-3 mb-3">
+                <h3 class="h6 mb-0">
+                  <a class="d-block" data-bs-toggle="collapse" href="#collapsempesa" role="button" aria-expanded="false" aria-controls="collapsempesa">
+                    M-Pesa
+                  </a>
+                </h3>
+                <div class="collapse" id="collapsempesa">
+                  <div class="py-2">
+                    <p class="mb-0">Pay via M-Pesa Till Number: <strong>123456</strong>. Use your phone number as reference.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="border p-3 mb-3">
+                <h3 class="h6 mb-0">
+                  <a class="d-block" data-bs-toggle="collapse" href="#collapsecash" role="button" aria-expanded="false" aria-controls="collapsecash">
+                    Cash on Delivery
+                  </a>
+                </h3>
+                <div class="collapse" id="collapsecash">
+                  <div class="py-2">
+                    <p class="mb-0">Pay when the product is delivered to your location.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <button class="btn btn-black btn-lg py-3 btn-block" onclick="window.location='thankyou.html'">Place Order</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+		<!-- Start Footer Section -->
+<footer class="footer-section">
+	<div class="container relative">
+
+		<div class="sofa-img">
+			<img src="images/sofa.png" alt="Think Big Furniture Sofa" class="img-fluid">
+		</div>
+
+		<div class="row">
+			<div class="col-lg-8">
+				<div class="subscription-form">
+					<h3 class="d-flex align-items-center">
+						<span class="me-1"><img src="images/envelope-outline.svg" alt="Newsletter" class="img-fluid"></span>
+						<span>Subscribe to Newsletter</span>
+					</h3>
+
+					<form action="#" class="row g-3">
+						<div class="col-auto">
+							<input type="text" class="form-control" placeholder="Enter your name">
+						</div>
+						<div class="col-auto">
+							<input type="email" class="form-control" placeholder="Enter your email">
+						</div>
+						<div class="col-auto">
+							<button class="btn btn-primary">
+								<span class="fa fa-paper-plane"></span>
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<div class="row g-5 mb-5">
+			<div class="col-lg-4">
+				<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">Think Big Furniture<span>.</span></a></div>
+				<p class="mb-4">We design and deliver beautiful, functional, and affordable furniture across Kenya. Whether for your home, office, or event — we think big so you can live bigger.</p>
+
+				<ul class="list-unstyled custom-social">
+					<li><a href="https://www.facebook.com/ThinkBigFurnitureKE" target="_blank"><span class="fa fa-brands fa-facebook-f"></span></a></li>
+					<li><a href="https://www.instagram.com/thinkbigfurniture" target="_blank"><span class="fa fa-brands fa-instagram"></span></a></li>
+					<li><a href="https://wa.me/254712345678" target="_blank"><span class="fa fa-brands fa-whatsapp"></span></a></li>
+					<li><a href="https://www.tiktok.com/@thinkbigfurniture" target="_blank"><span class="fa fa-brands fa-tiktok"></span></a></li>
+				</ul>
+			</div>
+
+			<div class="col-lg-8">
+				<div class="row links-wrap">
+					<div class="col-6 col-sm-6 col-md-3">
+						<ul class="list-unstyled">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="services.html">Services</a></li>
+							<li><a href="shop.html">Shop</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+						</ul>
+					</div>
+
+					<div class="col-6 col-sm-6 col-md-3">
+						<ul class="list-unstyled">
+							<li><a href="#faq">FAQs</a></li>
+							<li><a href="#support">Support</a></li>
+							<li><a href="#delivery">Delivery Info</a></li>
+						</ul>
+					</div>
+
+					<div class="col-6 col-sm-6 col-md-3">
+						<ul class="list-unstyled">
+							<li><a href="#careers">Careers</a></li>
+							<li><a href="#team">Our Team</a></li>
+							<li><a href="#reviews">Customer Reviews</a></li>
+							<li><a href="#privacy">Privacy Policy</a></li>
+						</ul>
+					</div>
+
+					<div class="col-6 col-sm-6 col-md-3">
+						<ul class="list-unstyled">
+							<li><a href="#">Custom Sofas</a></li>
+							<li><a href="#">Dining Sets</a></li>
+							<li><a href="#">Office Furniture</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="border-top copyright">
+			<div class="row pt-4">
+					<div class="col-lg-6">
+    <p class="mb-2 text-center text-lg-start">
+        Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+        Think Big Furniture. All Rights Reserved. Made with ❤️ by <a href="https://wa.me/0759921439" target="_blank">Gichuki Kibocha</a>.
+        
+    </p>
+</div>
+
+				<div class="col-lg-6 text-center text-lg-end">
+					<ul class="list-unstyled d-inline-flex ms-auto">
+						<li class="me-4"><a href="#terms">Terms &amp; Conditions</a></li>
+						<li><a href="#privacy">Privacy Policy</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</footer>
+<!-- End Footer Section -->
+
+
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/tiny-slider.js"></script>
+		<script src="js/custom.js"></script>
+	</body>
+
+</html>
